@@ -304,6 +304,15 @@ nav.show div.icon-close {
   margin-bottom: 2rem;
 }
 
+#home .text p a {
+  color: #004737;
+  background-color: #07dbaa;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.1rem 0.3rem;
+
+}
+
 /*====  ABOUT ============================ */
 
 #about .container {

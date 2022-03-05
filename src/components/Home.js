@@ -17,6 +17,7 @@ function Home() {
             <p>
             Não é a linguagem de programação que define o programador, mas sim sua lógica.
             </p>
+            <p>Estudo Desenvolvimento Web Full Stack na  <a href="https://www.betrybe.com" target="_blank" rel="noreferrer">Trybe</a></p>
             <a class="button" href="home">CV</a>
           </div>
         </div>
