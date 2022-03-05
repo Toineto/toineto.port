@@ -1,5 +1,7 @@
 import React from "react";
 import trivia from "../image/trivia.png";
+import sistema from "../image/sistema.png";
+import pixel from "../image/pixel.png";
 
 function Projects() {
   return (
@@ -12,54 +14,41 @@ function Projects() {
           <div class="testimonials swiper-container">
             <div class="swiper-wrapper">
               <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-                  <cite>
-                  <a href="https://jogo-trivia-toineto.netlify.app/" target="_blank" rel="noreferrer">
+                  <a href="https://jogo-trivia-toineto.netlify.app/" target="_blank">
+                <h2>Jogo Trivia</h2>
                     <img src={trivia} alt="jogo trivia" />
                     </a>
-                    trivia
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonial swiper-slide">
-                <blockquote>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Rerum blanditiis saepe nam excepturi explicabo ipsa error
                     ipsam neque
                   </p>
-                  <cite>
-                    
-                      <img
-                        src=""
-                        alt="projeto"
-                      />
-                    Jogo trivia
-                  </cite>
-                </blockquote>
               </div>
 
               <div class="testimonial swiper-slide">
-                <blockquote>
+                  <a href="https://system-solar-toin.netlify.app/" target="_blank">
+                <h2>Sistema Solar</h2>
+                    <img src={sistema} alt="Sistema Solar" />
+                    </a>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Rerum blanditiis saepe nam excepturi explicabo ipsa error
                     ipsam neque
                   </p>
-                  <cite>
-                    <img
-                      src="assets/fotos/26.jpeg"
-                      alt="Fotos de Valeska Fabris"
-                    />
-                    nome do projeto
-                  </cite>
-                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                  <a href="https://pixels-art-toin.netlify.app/" target="_blank">
+                    <h2>Pixel Arts</h2>
+                    <img src={pixel} alt="Pixel Arts" />
+                    </a>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  
+                
               </div>
             </div>
             <div class="swiper-pagination"></div>
