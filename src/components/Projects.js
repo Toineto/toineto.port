@@ -48,7 +48,7 @@ function Projects() {
                     ipsam neque sdfasdf asdf 
                   </p>
                   
-                
+                  <div class="divider-1"></div>
               </div>
             </div>
             <div class="swiper-pagination"></div>
