@@ -9,7 +9,7 @@ function Footer() {
             Antônio<span>Augusto</span>.
           </a>
           <p>
-            Criado e constantemente atualizado pelo Antônio Augusto Barbosa
+            Criado e constantemente atualizado por Antônio Augusto Barbosa
             Neto.
           </p>
           <p>Todos os direitos reservados.</p>
