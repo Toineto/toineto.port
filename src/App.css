@@ -37,8 +37,8 @@ img {
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
-  --title-font: 'Poppins', sans-serif;
-  --body-font: 'DM Sans', sans-serif;
+  --title-font: "Poppins", sans-serif;
+  --body-font: "DM Sans", sans-serif;
 }
 
 /*===  BASE ============================ */
@@ -178,7 +178,7 @@ nav ul li a.active {
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   background: var(--base-color);
@@ -270,7 +270,7 @@ nav.show div.icon-close {
 }
 
 #home .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -310,7 +310,6 @@ nav.show div.icon-close {
   text-decoration: none;
   font-weight: bold;
   padding: 0.1rem 0.3rem;
-
 }
 
 /*====  ABOUT ============================ */
@@ -324,7 +323,7 @@ nav.show div.icon-close {
 }
 
 #about .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -348,7 +347,7 @@ nav.show div.icon-close {
   margin-right: 1.5rem;
 }
 
-/*====  SERVICES ============================ */
+/*====  Skills ============================ */
 .cards.grid {
   gap: 1.5rem;
 }
@@ -373,57 +372,68 @@ nav.show div.icon-close {
   margin-bottom: 0.75rem;
 }
 
-/*====  TESTIMONIALS ============================ */
-#testimonials {
-  background: white;
-}
+/*====  Projects ============================ */
 
-#testimonials .container {
-  margin-left: 0;
-  margin-right: 0;
+#projects .container {
   position: relative;
   overflow: hidden;
 }
 
-#testimonials header {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: 0;
-}
-
-#testimonials blockquote {
-  padding: 2rem;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
-  border-radius: 0.25rem;
-}
-
-#testimonials blockquote p {
+.project {
   position: relative;
-  text-indent: 1.875rem;
-  margin-bottom: 1.5rem;
-  color: var(--title-color);
+  width: 100%rem;
 }
 
-#testimonials blockquote p span {
-  font: 700 2.5rem serif;
+.project a {
+  text-decoration: none;
+  color: white;
+}
+
+.image-img {
+  display: block;
+  width: 100%;
+}
+.img-overlay {
   position: absolute;
-  top: -0.375rem;
-  left: -1.875rem;
-  color: var(--base-color);
-}
-
-#testimonials cite {
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: "QuickSand", sans-serif;
   display: flex;
-  align-items: center;
-  font-style: normal;
+  justify-content: center;
+  transition: opacity 0.25s;
+  opacity: 0;
 }
 
-#testimonials cite img {
-  width: 2rem;
-  height: 2rem;
-  object-fit: cover;
-  clip-path: circle();
-  margin-right: 0.5rem;
+.image-title {
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.image-description {
+  font-size: 1.25em;
+  margin-top: 0.5rem;
+}
+
+.img-overlay > * {
+  transform: translateY(20px);
+  transition: 0.25s;
+}
+
+.img-overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.img-overlay:hover {
+  opacity: 1;
+}
+
+.img-overlay:hover > * {
+  transform: translateY(0);
 }
 
 /* swiper */
@@ -550,7 +560,7 @@ footer .social a:hover {
   }
 
   .section header,
-  #testimonials header {
+  #projects header {
     max-width: 32rem;
     text-align: center;
     margin-left: auto;
@@ -615,18 +625,8 @@ footer .social a:hover {
     grid-auto-flow: column;
   }
 
-  /* services */
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .card {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  /* testimonials */
-  #testimonials .container {
+  /* projects */
+  #projects .container {
     margin-left: auto;
     margin-right: auto;
   }
