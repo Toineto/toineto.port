@@ -5,57 +5,70 @@ import pixel from "../image/pixel.png";
 
 function Projects() {
   return (
-    <div>
+    <>
       <section class="section" id="Projetos">
         <div class="container">
           <header>
             <h2 class="title">Projetos</h2>
           </header>
-          <div class="testimonials swiper-container">
+          <div class="projects swiper-container">
             <div class="swiper-wrapper">
-              <div class="testimonial swiper-slide">
-                  <a href="https://jogo-trivia-toineto.netlify.app/" target="_blank" rel="noreferrer">
-                <h2>Jogo Trivia</h2>
-                    <img src={trivia} alt="jogo trivia" />
-                    </a>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
+              <div class="project swiper-slide trivia">
+                <a
+                  href="https://jogo-trivia-toineto.netlify.app/"
+                  target="_blank" rel="noreferrer"
+                >
+                  <img src={trivia} alt="jogo trivia" className="image-img" />
+                <div className="img-overlay img-overlay--blur">
+                  <div className="image-title">Jogo Trivia</div>
+                  <p className="image-description">
+                    Lorem ipsum, dolor sit amet consectetur
                   </p>
+                </div>
+                </a>
+              </div>
+              <div class="project swiper-slide sistema">
+                <a
+                  href="https://system-solar-toin.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={sistema}
+                    alt="Sistema Solar"
+                    className="image-img"
+                  />
+                </a>
+                <div className="img-overlay img-overlay--blur">
+                  <div className="image-title">Sistema Solar</div>
+                  <p className="image-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </div>
               </div>
 
-              <div class="testimonial swiper-slide">
-                  <a href="https://system-solar-toin.netlify.app/" target="_blank" rel="noreferrer">
-                <h2>Sistema Solar</h2>
-                    <img src={sistema} alt="Sistema Solar" />
-                    </a>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-              </div>
-
-              <div class="testimonial swiper-slide">
-                  <a href="https://pixels-art-toin.netlify.app/" target="_blank" rel="noreferrer">
-                    <h2>Pixel Arts</h2>
-                    <img src={pixel} alt="Pixel Arts" />
-                    </a>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque sdfasdf asdf 
-                  </p>
-                  
-                  <div class="divider-1"></div>
+              <div class="project swiper-slide">
+                <a
+                  href="https://pixels-art-toin.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={pixel} alt="Pixel Arts" className="image-img" />
+                  <div className="img-overlay img-overlay--blur">
+                    <div className="image-title">Pixel Arts</div>
+                    <p className="image-description">
+                      aqui está meu projeto Pixels Arts
+                    </p>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
-    </div>
+      <div class="divider-1"></div>
+    </>
   );
 }
 
