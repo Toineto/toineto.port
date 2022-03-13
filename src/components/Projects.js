@@ -16,15 +16,18 @@ function Projects() {
               <div class="project swiper-slide trivia">
                 <a
                   href="https://jogo-trivia-toineto.netlify.app/"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={trivia} alt="jogo trivia" className="image-img" />
-                <div className="img-overlay img-overlay--blur">
-                  <div className="image-title">Jogo Trivia</div>
-                  <p className="image-description">
-                    Lorem ipsum, dolor sit amet consectetur
-                  </p>
-                </div>
+                  <div className="img-overlay img-overlay--blur">
+                    <div className="image-title">Jogo Trivia</div>
+                    <p className="image-description">
+                      este projeto feito em React JS, onde fiz em grupo, usamos
+                      gerenciamento de estado com Redux, metodologias ágeis
+                      Scrum e Kanban, usamos o Trello para nos organizarmos.
+                    </p>
+                  </div>
                 </a>
               </div>
               <div class="project swiper-slide sistema">
@@ -38,13 +41,15 @@ function Projects() {
                     alt="Sistema Solar"
                     className="image-img"
                   />
+                  <div className="img-overlay img-overlay--blur">
+                    <div className="image-title">Sistema Solar</div>
+                    <p className="image-description">
+                      Este foi o primeiro projeto que criei usando React JS, foi
+                      muito prazeroso fazer essa aplicação, aprendi como usar o
+                      JSX e a renderizar as coisas no React.
+                    </p>
+                  </div>
                 </a>
-                <div className="img-overlay img-overlay--blur">
-                  <div className="image-title">Sistema Solar</div>
-                  <p className="image-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  </p>
-                </div>
               </div>
 
               <div class="project swiper-slide">
@@ -57,7 +62,9 @@ function Projects() {
                   <div className="img-overlay img-overlay--blur">
                     <div className="image-title">Pixel Arts</div>
                     <p className="image-description">
-                      aqui está meu projeto Pixels Arts
+                      Este foi um dos meus primeiros projetos criado apenas com
+                      JavaScript, html5 e css3, coloquei em prática um pouco de
+                      minha lógica, flexbox e responsividade.
                     </p>
                   </div>
                 </a>
