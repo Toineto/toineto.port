@@ -373,6 +373,20 @@ nav.show div.icon-close {
 }
 
 /*====  Projects ============================ */
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: "QuickSand", sans-serif;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.25s;
+  opacity: 0;
+}
 
 #projects .container {
   position: relative;
@@ -393,30 +407,18 @@ nav.show div.icon-close {
   display: block;
   width: 100%;
 }
-.img-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  flex-direction: column;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  font-family: "QuickSand", sans-serif;
-  display: flex;
-  justify-content: center;
-  transition: opacity 0.25s;
-  opacity: 0;
-}
 
 .image-title {
   font-size: 2rem;
   font-weight: bold;
   justify-content: center;
+  text-align: center;
 }
 
 .image-description {
   font-size: 1.25em;
   margin-top: 0.5rem;
+  text-align: center;
 }
 
 .img-overlay > * {
@@ -623,12 +625,6 @@ footer .social a:hover {
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
-  }
-
-  /* projects */
-  #projects .container {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   /* contact */
