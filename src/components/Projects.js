@@ -25,7 +25,8 @@ function Projects() {
                     <p className="image-description">
                       este projeto feito em React JS, onde fiz em grupo, usamos
                       gerenciamento de estado com Redux, metodologias ágeis
-                      Scrum e Kanban, usamos o Trello para nos organizarmos.
+                      Scrum e Kanban, usamos o Trello para nos organizarmo,
+                      não usamos nenhuma biblioteca css, fizemos tudo na mão.
                     </p>
                   </div>
                 </a>
@@ -46,7 +47,7 @@ function Projects() {
                     <p className="image-description">
                       Este foi o primeiro projeto que criei usando React JS, foi
                       muito prazeroso fazer essa aplicação, aprendi como usar o
-                      JSX e a renderizar as coisas no React.
+                      JSX e a renderizar com o React, aprendi o que é components.
                     </p>
                   </div>
                 </a>
@@ -64,7 +65,8 @@ function Projects() {
                     <p className="image-description">
                       Este foi um dos meus primeiros projetos criado apenas com
                       JavaScript, html5 e css3, coloquei em prática um pouco de
-                      minha lógica, flexbox e responsividade.
+                      minha lógica, flexbox e responsividade, onde conclui o meu 
+                      objetivo. com exito.
                     </p>
                   </div>
                 </a>
