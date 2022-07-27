@@ -6,17 +6,16 @@ import Home from '../components/Home';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
-function MainPage() {
-  return(
-    <div>
-      <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Footer />
-    </div>
-  )
-}
+const MainPage = () => (
+  <div>
+    <Header />
+    <Home />
+    <About />
+    <Projects />
+    <Skills />
+    <Footer />
+  </div>
+)
+
 
 export default MainPage;
