@@ -5,14 +5,14 @@ import pixel from '../image/pixel.png';
 
 function Projects() {
   return (
-    <section class="section" id="Projetos">
-      <div class="container">
+    <div className="section" id="Projetos">
+      <div className="container">
         <header>
-          <h2 class="title">Projetos</h2>
+          <h2 className="title">Projetos</h2>
         </header>
-        <div class="projects swiper-container">
-          <div class="swiper-wrapper">
-            <div class="project swiper-slide trivia">
+        <div className="projects swiper-container">
+          <div className="swiper-wrapper">
+            <div className="project swiper-slide trivia">
               <a href="https://jogo-trivia-toineto.netlify.app/">
                 <img src={trivia} alt="jogo trivia" className="image-img" />
                 <div className="img-overlay img-overlay--blur">
@@ -26,7 +26,7 @@ function Projects() {
                 </div>
               </a>
             </div>
-            <div class="project swiper-slide sistema">
+            <div className="project swiper-slide sistema">
               <a href="https://system-solar-toin.netlify.app/">
                 <img
                   src={sistema}
@@ -45,7 +45,7 @@ function Projects() {
               </a>
             </div>
 
-            <div class="project swiper-slide">
+            <div className="project swiper-slide">
               <a href="https://pixels-art-toin.netlify.app/">
                 <img src={pixel} alt="Pixel Arts" className="image-img" />
                 <div className="img-overlay img-overlay--blur">
@@ -60,11 +60,11 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div className="swiper-pagination"></div>
         </div>
       </div>
-      <div class="divider-1"></div>
-    </section>
+      <div className="divider-1"></div>
+    </div>
   );
 }
 
