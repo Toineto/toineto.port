@@ -4,7 +4,7 @@
 <h2> Como executar o projeto </h2>
 
 aqui está o link do meu projeto:
-<a href="https://toineto.netlify.app/"><p>Link</p></a>
+https://toineto.netlify.app/
 
 
 <p>1- Clone o repositório para o seu computador usando o comando abaixo:</p>
