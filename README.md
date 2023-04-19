@@ -1,1 +1,0 @@
-Fiz essse portfólio para mostrar um pouco do que venho aprendendo desde que entrei nesse foguete.🚀
