@@ -38,5 +38,4 @@ index.js: o arquivo que inicia o aplicativo React.
 Contato
 Para mais informações ou para entrar em contato comigo, visite meu perfil no GitHub.!
 
-[Captura de tela 2023-04-18 233345](https://user-images.githubusercontent.com/65906638/232951840-8e93f7b5-670d-4572-96c8-ee59c9fa81db.png)
-
+<img src="https://user-images.githubusercontent.com/65906638/232951840-8e93f7b5-670d-4572-96c8-ee59c9fa81db.png" alt="" />
