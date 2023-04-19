@@ -1,7 +1,7 @@
-<h1>Portfólio Pessoal</h1>
+<h1> Portifólio Pessoal </h1>
 Este é o meu portfólio pessoal, onde apresento alguns dos meus projetos e habilidades em desenvolvimento web. Foi desenvolvido usando React, JavaScript, HTML e CSS.
 
-Como executar o projeto
+<h2> Como executar o projeto </h2>
 
 aqui está o link do meu projeto:
 
@@ -25,7 +25,7 @@ Copy code
 npm start
 O projeto estará disponível em seu navegador em http://localhost:3000
 
-Estrutura do projeto
+<h2> Estrutura do projeto </h2>
 A estrutura do projeto é composta pelos seguintes diretórios e arquivos:
 
 public/: contém o arquivo HTML principal e outros arquivos estáticos.
@@ -35,7 +35,7 @@ pages/: contém as páginas principais do site.
 styles/: contém os arquivos CSS usados no projeto.
 App.js: o componente principal do React que configura a navegação do site.
 index.js: o arquivo que inicia o aplicativo React.
-Contato
+<h4> Contato <h4>
 Para mais informações ou para entrar em contato comigo, visite meu perfil no GitHub.!
 
 <img src="https://user-images.githubusercontent.com/65906638/232951840-8e93f7b5-670d-4572-96c8-ee59c9fa81db.png" alt="" />
