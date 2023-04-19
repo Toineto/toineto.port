@@ -1,4 +1,4 @@
-Portfólio Pessoal
+<h1>Portfólio Pessoal</h1>
 Este é o meu portfólio pessoal, onde apresento alguns dos meus projetos e habilidades em desenvolvimento web. Foi desenvolvido usando React, JavaScript, HTML e CSS.
 
 Como executar o projeto
