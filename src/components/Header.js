@@ -4,7 +4,7 @@ function Header() {
   return (
     <header id="header">
       <nav class="container">
-          <a href="#home" className="logo">Antônio<span> Augusto</span></a>
+          <a href="#home" className="logo">Antônio<span>Augusto</span></a>
         <div class="menu">
           <ul class="grid">
             <li>

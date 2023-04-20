@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Home from '../components/Home';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Contact from "../components/Contact"
 
 const MainPage = () => (
   <div>
@@ -13,6 +14,7 @@ const MainPage = () => (
     <About />
     <Projects />
     <Skills />
+    <Contact />
     <Footer />
   </div>
 )
